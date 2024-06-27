@@ -1,0 +1,186 @@
+.img1 img{
+    height:70px;
+    width:70px;
+}
+.img2{
+
+    height: 739px;
+    width: 100%;
+    object-fit: fill;
+    z-index: -1;
+
+}
+
+.dau1{ 
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: rgba(0,0,0,0.8);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    top:0;
+}
+.menu{
+    display: flex;
+     list-style: none;
+    
+}
+.menu li a{
+    line-height: 30px;
+    font-size: 20px;
+    z-index: -1;
+    display: inline-flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.than{
+    
+    position: relative;  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+ 
+    margin-top: 80px;
+    
+    
+}
+
+.img11{
+  
+    display:flex;
+    border: 1px solid black;
+    width:400px;
+    height:500px;
+
+}
+.TEXT {
+    width:342px;
+    height:443px;
+    position: absolute;
+    padding: 30px;
+    opacity: 0;
+}
+.TEXT:hover {
+  
+    font-size: 20px;
+    color:white;
+     position: absolute;
+     padding: 30px;
+     text-align: center;
+     background-color: rgba(0,0,0,0.5);
+     width:342px;
+     height:443px;
+     opacity: 1;
+   
+ }
+.center{
+    margin:0px 115px;
+}
+.text11{
+ 
+    position: absolute;
+    top:65vh;
+    transform: translatex(160%);
+    border-bottom: 1px solid;
+}
+
+.a:hover{
+    
+    border-radius: 20px;
+    font-size: 20px;
+    z-index: -1;
+    display: inline-flex;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: rgb(4, 96, 176);
+    border: 1px solid;
+}
+.DUOI{
+    min-height: 100%;
+    min-height: 100%;
+    background-color: azure;
+}
+.duoi{
+    margin-top: 80px;
+    
+    
+    display: flex;
+   font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    
+}
+.duoi li{
+    list-style: none;
+    padding: 20px 10px 20px;
+    text-align: center;
+}
+.duoi h1{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    margin: 0px 20px ;
+}
+.input{
+    width:160px;
+    height:20px;
+    transform: translateX(51px);
+    border-radius: 5px;
+    margin: 20px 0px 0px 0px;
+}
+button{
+    width:160px;
+    transform: translateX(32px);
+    padding: 0px 10px;
+    margin: 20px;
+    height: 30px;
+    border-radius:2px ;
+    border-radius: 20px;
+}
+.duoi p {
+    padding: 20px 10px 20px;
+    text-align: justify;
+   
+   
+}
+.icon{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 6px;
+}
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.card li{
+    padding: 0px 20px;
+}
+.product{
+    column-gap: 40px;
+    margin-top: 80px;
+    text-align: center;
+    gap:40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.product img{
+    height: 200px;
+    width: 200px;
+}
+.product li{
+list-style: none;
+}
+.sanpham{
+    margin-top: 80px;
+}
+.h1{
+    margin: 0px 20px;
+}

@@ -1,0 +1,160 @@
+*{
+
+    padding: 0;
+    margin: 0;
+ 
+}body{
+background: url(/filehìnhảnh/hihih.jpg)
+;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+
+.dau{
+top:0;
+left: 0;
+ background: rgba(200, 190, 190, 0);
+ padding: 20px 0;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ z-index: 99;
+}
+
+a.a{
+ position: relative;
+ font-size: 1.1em;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 50;
+ margin-left: 76%;
+}
+
+a.b{
+    position: relative;
+ font-size: 1.1em;
+ color: #fff;
+ text-decoration: none;
+ font-weight: 50;
+ margin-left: 65px; 
+}
+
+.c{
+    margin-left: 65px;
+    height:30px;
+}
+
+.khung{
+       min-height: 100vh;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.dangnhap{
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.352);
+    flex-grow: 3;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 2px rgb(9, 9, 8);
+    border-radius: 15px;
+
+
+}
+.trongdangnhap{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background: rgba(0 ,0 ,0, 0 ) ;
+    border-bottom: 1px solid #141212;
+    position: relative;
+    
+}
+
+#a{
+    text-align: center;
+    color: #050505;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.b1{
+    background: transparent;
+    outline: 0;
+    border:0;
+}
+
+.submit{
+    background: transparent;
+    border:  1px solid #0b0909;
+    color: #020202;
+    text-transform: uppercase;
+    padding:6px 10px;
+    width: 100%;
+    height:40px;
+}
+
+.checkbox{
+    color: #090909;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.checkbox input{
+    margin-right: 5px;
+}
+
+.creat{
+    color: #0f0c0c;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#eye i{
+  
+    position: absolute;
+    bottom: 8px;
+    right: 1px;
+}
+.submit:hover{
+    background-color: rgb(14, 13, 13);
+    color: aliceblue;
+    cursor: pointer;
+}
+.error{
+    background:rgb(224, 131, 131);
+    color: red;
+    width: auto;
+    padding:10px;
+    border-radius: 5px;
+}
+.center{
+min-height: 100vh;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+a{
+    text-decoration: none;
+}
+.duoi{
+    text-align: center;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
